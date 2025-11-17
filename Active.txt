@@ -1,0 +1,114 @@
+Order planning Strategy
+	Order planning Stragety definition
+	Pipeline and Capcity
+	Order selection Criteria
+		Order Selection Criteria Name
+		Order Selection Rules
+		Order Selection Capacities
+		Order Selection Sequencing Criteria
+	Select Configuration Strategies
+		Allocation
+			Name and Description
+			Set Order Criteria
+				Criteria Definition
+				Selection Rules
+				Additional order Criteria Attributes
+				Set Inventory Criteria
+					Criterai Definition
+					Selection Rules
+					Allocation Zone Priorities
+					Break by Criteria
+					Allocation Sequence
+		Cubing
+			Strategy Definition
+			Cube-by-UOM Criteria
+			Cube-to-Capacity Criteria
+				Criteria Definition
+				Cubing Criteria Rules
+				3d Cubing
+				Cubing Method
+				Residual Cubing Parameters
+				Look ahead ParametersBreak by Criteria
+				Sequencing Criteria
+				Residual Cubing Constraint
+		Routing
+		Picking Task Strategy
+			Name and Description
+			Set Picking Task Criteria (Task Release Template)
+				Task Criteria Name and Description
+				Selection Rules
+				Task Criteria Parameters
+				Define Task Sequencing Criteria
+				Define Print Sequencing Criteria
+				Set Task Threshold Criteria
+				Tote Template
+		Sort/Pack Work Release
+		
+Ship Confirm Order Selection
+	Ship Confirm Order Selection Criteria
+	Selection Rules
+	
+
+
+
+4 types of picking 
+	Single order picking	No Sorter and putwall for picking and packing
+	Batch Picking			No Consolidation Needed, Always pick OLPNS
+	Zone Picking			Different users will be pciking for an order
+	Bulk Picking			Multiple orders will be picked
+	
+
+Locations
+	Dock door
+	Staging
+	Storage
+	Order Consolidation
+
+
+Manage User
+Task Group
+User Task Group Eligibility
+
+
+
+
+
+
+
+
+Receiving Strategy
+	Strategy Definition
+	Receiving Criteria
+		Receiving Criteria
+		Selection Rules
+		Reciving Key Attributes
+		Receiving Key Attributes(Continued)
+		Tolerance Attributes
+		Additional Receiving AttributesVerify ASN,Pickup Task and Disposition Attributes
+		Picking and Labor Attributes
+	Receiving Overide Criteria
+	Receiving Line Overide Criteria
+	Reciving Rules Criteria
+	Post Receiving Criteria
+	
+	
+Putaway Strategy
+Putaway Planning Stratedy
+	Putaway Planning Startegy
+		Strategy  -- Provide Task Creation Startegy`
+							Task Creation Template
+							Selection Rules
+							Task sequencing rules
+		Putaway Planning Criteria
+		Selection Rules
+		Putaway Priority
+	Putaway Planning Criteria
+		Putaway Planning Criteria
+		Selection Rules
+		Putaway Priority
+			Putaway Priority
+			Consolidation Parameters
+			Putaway Zone Priority
+			Putaway Radial Search
+
+Manage Failed Message
